@@ -10,7 +10,7 @@ google-api-core==2.23.0
 google-api-python-client==2.154.0
 google-auth==2.36.0
 google-auth-httplib2==0.2.0
-google-generativeai==0.8.3
+google-generativeai @ git+https://github.com/google-gemini/generative-ai-python@2786f33edbabc441b247e549025b3e9e5e849895
 googleapis-common-protos==1.66.0
 grpcio==1.68.1
 grpcio-status==1.68.1
@@ -19,6 +19,7 @@ httpcore==1.0.7
 httplib2==0.22.0
 httpx==0.28.0
 idna==3.10
+pillow==11.0.0
 proto-plus==1.25.0
 protobuf==5.29.1
 pyasn1==0.6.1

@@ -6,8 +6,13 @@ import google.generativeai as genai
 load_dotenv()
 
 # Configure the Gemini API
-genai.configure(api_key=os.environ["API_KEY"])
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
+
+# list model
+models = genai.list_models()
+for model in models:
+    print(model.name)
 # Initialize the Image Generation Model
 imagen = genai.ImageGenerationModel("imagen-3.0-generate-001")
 

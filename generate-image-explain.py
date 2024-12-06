@@ -4,7 +4,7 @@ import base64
 import google.generativeai as genai
 
 # Configure the Gemini API with your API key
-genai.configure(api_key=os.environ["API_KEY"])
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Initialize the model
 model = genai.GenerativeModel(model_name="gemini-1.5-pro")
