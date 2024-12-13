@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-
 def analyze_local_video(video_path):
     try:
         # Print upload status
