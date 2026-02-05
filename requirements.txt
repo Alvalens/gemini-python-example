@@ -21,7 +21,7 @@ httpx==0.28.0
 idna==3.10
 pillow==11.0.0
 proto-plus==1.25.0
-protobuf==5.29.1
+protobuf==5.29.6
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pydantic==2.10.3
